@@ -1,0 +1,38 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "ketcher-react": "~2.3.3",
+    "ketcher-standalone": "~1.3.1",
+    "miew": "^0.10.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^4.0.3",
+    "streamlit-component-lib": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "~16.14.21",
+    "@types/react-dom": "~16.9.14",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "."
+}
